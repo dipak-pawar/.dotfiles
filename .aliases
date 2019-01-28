@@ -1,0 +1,36 @@
+# Git Alias
+alias gs='git status'
+alias gc='git commit'
+alias gpo='git pull origin'
+alias gpusho='git push --set-upstream origin $(git symbolic-ref --short HEAD)'
+alias gd='git diff'
+alias gb='git branch'
+alias gch='git checkout'
+alias ga='git add'
+alias gfu='git fetch upstream'
+alias gl='git log'
+
+
+# Maven Alias
+alias mci='mvn clean install'
+alias mi='mvn install'
+alias mdt='mvn dependency:tree'
+alias mcis='mvn clean install -DskipTests'
+alias mt='mvn test'
+alias mda='mvn dependency:analyze'
+alias mct='mvn clean test'
+alias mp='mvn package'
+alias mco='mvn compile'
+alias mtp='mvn clean test -pl'
+alias mc='mvn clean'
+
+
+# k8s
+alias k='kubectl'
+alias kcs='kubectl config set-context $(kubectl config current-context)'
+
+# Commonly Used Dir
+alias fc='cd ~/go/src/github.com/fabric8-services/fabric8-cluster'
+alias fa='cd ~/go/src/github.com/fabric8-services/fabric8-auth'
+alias fs='cd ~/go/src/github.com/fabric8-services'
+alias to='cd ~/go/src/github.com/fabric8-services/toolchain-operator'
